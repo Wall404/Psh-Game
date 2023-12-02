@@ -21,5 +21,6 @@ from Game.views import top_scores, export_report
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('top_scores/', top_scores, name='top_scores'),
+    # path('/', top_scores, name='top_scores'),
     path('export_report/', export_report, name='export_report'),
 ]
